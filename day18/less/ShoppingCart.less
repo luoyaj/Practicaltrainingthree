@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+// 头部
+.top {
+    .title {
+        padding: 5.3333vw 2.6667vw;
+        color: #4d4d4d;
+        font-family: SourceHanSansCN-Regular;
+
+        span:first-child {
+            font-size: 6.4vw;
+            line-height: 5.0667vw;
+            letter-spacing: .5333vw;
+        }
+
+        span:last-child {
+            font-size: 3.2vw;
+            line-height: 5.0667vw;
+            float: right;
+        }
+    }
+
+    // 导航栏
+    .nav {
+        // margin-top: 2.6667vw;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 8vw;
+
+            li {
+                font-size: 4.2667vw;
+                line-height: 8vw;
+                width: 12.8vw;
+                text-align: center;
+            }
+
+            li:first-child {
+                color: rgb(236, 100, 79);
+                position: relative;
+
+                span {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: .8vw;
+                    width: 12.8vw;
+                    background-color: rgb(236, 100, 79);
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
+
+// 购物车详情
+.bg {
+    background-color: #f1f1f1;
+    padding-top: 2.6667vw;
+
+    .ShoppingCart_box {
+        // padding-top: 2.6667vw;
+        width: 92vw;
+        height: 47.4667vw;
+        margin: auto;
+        background-color: #ffffff;
+        border-radius: 1.3333vw;
+
+        .Order {
+            height: 11.4667vw;
+            margin: 2.6667vw;
+            border-bottom: .2667vw solid #e5e5e5;
+            line-height: 11.4667vw;
+
+            .OrderNo {
+                font-size: 3.4667vw;
+            }
+
+            .payment_status {
+                font-size: 3.7333vw;
+                color: rgb(236, 100, 79);
+                float: right;
+            }
+        }
+
+        .OrderDetails {
+            margin: 0 2.6667vw;
+
+            .OrderDetails_top {
+                display: flex;
+                justify-content: space-between;
+                .OrderDetails_img {
+                    img {
+                        width: 16vw;
+                        height: 16vw;
+                    }
+                }
+
+                .OrderDetails_text {
+                    padding-left: 2.6667vw;
+                    flex: 1;
+                    .goods_introduce {
+                        .hot {
+                            width: 8.8vw;
+                            font-size: 2.6667vw;
+                            height: 5.8667vw;
+                            line-height: 5.8667vw;
+                            display: inline-block;
+                            background: #fdebe8;
+                            border-radius: .5333vw;
+                            // opacity: 0.1;
+                            color: #f0361f;
+                            transform: scale(0.83);
+                            text-align: center;
+                        }
+
+                        .goods_text{
+                            font-size: 3.7333vw;
+                            color: #333;
+                        }
+
+                        p {
+                            font-size: 3.2vw;
+                            line-height: 4.5333vw;
+                            color: #7a7a7a;
+                            // padding-bottom: 1.3333vw;
+                        }
+                    }
+
+                    .evaluate_stars {
+                        display: flex;
+                        height: 5.3333vw;
+                        justify-content: space-between;
+
+                        .evaluate_stars_img {
+                            img {
+                                // padding-right: 5px;
+                                width: 3.7333vw;
+                                height: 3.7333vw;
+                            }
+                        }
+
+                        span {
+                            float: right;
+                            font-size: 4.2667vw;
+                            line-height: 5.3333vw;
+                            letter-spacing: .2667vw;
+                            color: #fe4545;
+                        }
+                    }
+                }
+            }
+
+            .OrderDetails_bottom {
+                margin-top: 2.6667vw;
+                height: 6.4vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .OrderDetails_label {
+                    flex: 1;
+
+                    span {
+                        display: inline-block;
+                        width: 15.4667vw;
+                        height: 4.5333vw;
+                        background-color: #fdebe8;
+                        color: #fe4545;
+                        font-size: 2.9333vw;
+                        transform: scale(0.83);
+                        text-align: center;
+                        border-radius: 1.3333vw;
+                    }
+                }
+
+                .OrderDetails_operation {
+                    width: 37.3333vw;
+
+                    a {
+                        text-decoration: none;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 5.3333vw;
+                        width: 16.8vw;
+                        height: 5.3333vw;
+                        border-radius: 24vw;
+                        font-size: 3.2vw;
+                    }
+
+                    .cancel {
+                        color: #b6b6b6;
+                        border: .2667vw solid #9d9d9e;
+                    }
+
+                    .pay {
+                        color: #f46857;
+                        border: .2667vw solid #f0361f;
+                    }
+                }
+            }
+        }
+    }
+
+    // 最后一个订单详情
+    .last_ShoppingCart_box {
+        padding-bottom: 16vw;
+    }
+}
+
+
+//底部
+.bottom {
+    display: flex;
+    z-index: 100;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    // overflow: auto;
+    bottom: 0;
+    width: 100%;
+    height: 15.2vw;
+    border-top: .2667vw solid #ccc;
+
+    .bottom_box {
+        // overflow: auto;
+        text-align: center;
+        width: 13.3333vw;
+
+        .myicon {
+            font-size: 5.6vw !important;
+        }
+
+        p {
+            font-size: 3.4667vw;
+        }
+    }
+    .hover_bottom_box{
+        color: #f0361f !important;
+    }
+}

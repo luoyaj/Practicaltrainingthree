@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.top {
+  position: relative;
+  height: 50vw;
+  background-color: #ec5249;
+}
+.top .top_title {
+  height: 14.1333vw;
+}
+.top .top_title p {
+  color: #fff;
+  font-size: 6.4vw;
+  padding: 1.3333vw 0 0 4vw;
+  letter-spacing: 0.5333vw;
+}
+.top .top_content {
+  margin-left: 5.3333vw;
+  height: 17.6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.top .top_content .topuser_img {
+  height: 17.6vw;
+  width: 17.6vw;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.top .top_content .top_user {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4vw;
+}
+.top .top_content .top_user .integral_left {
+  color: #fff;
+}
+.top .top_content .top_user .integral_left img {
+  width: 5.0667vw;
+  height: 5.0667vw;
+}
+.top .top_content .top_user .integral_left span {
+  font-size: 5.6vw;
+}
+.top .top_content .top_user .integral_left p {
+  font-size: 3.2vw;
+}
+.top .top_content .top_user .integral_right {
+  width: 24.2667vw;
+  height: 8vw;
+  background-color: #fff;
+  border-radius: 24vw;
+  text-align: center;
+}
+.top .top_content .top_user .integral_right span {
+  font-size: 3.7333vw;
+  line-height: 8vw;
+  color: #f0776d;
+}
+.top .top_bg {
+  position: absolute;
+  bottom: -0.2667vw;
+  background: url("../img/矢量智能对象@2x.png") no-repeat;
+  background-size: cover;
+  height: 13.0667vw;
+  width: 100%;
+}
+.content .content_title {
+  border-bottom: 0.5333vw solid #f1f1f1;
+}
+.content .content_title p {
+  font-size: 4.8vw;
+  padding: 2.6667vw 0 3.7333vw 5.3333vw;
+}
+.content .content_box {
+  padding: 0 4.2667vw 0 3.4667vw;
+  display: flex;
+  align-items: center;
+  height: 18.9333vw;
+  margin-left: 3.4667vw;
+  border-top: 0.5333vw solid #f1f1f1;
+}
+.content .content_box .contentbox_img {
+  width: 10.6667vw;
+}
+.content .content_box .contentbox_img img {
+  width: 6.6667vw;
+  height: 5.6vw;
+}
+.content .content_box .contentbox_left {
+  flex: 1;
+}
+.content .content_box .contentbox_left span {
+  font-size: 4.8vw;
+}
+.content .content_box .contentbox_left p {
+  font-size: 3.7333vw;
+  letter-spacing: 0.2667vw;
+  color: #979797;
+  padding-top: 2.6667vw;
+}
+.content .content_box .contentbox_right {
+  width: 17.6vw;
+  height: 6.9333vw;
+  text-align: center;
+  border-radius: 3.4667vw;
+  font-size: 3.2vw;
+  color: #fff;
+  line-height: 6.9333vw;
+}
+.content .content_box .completed {
+  background-color: #ec5249;
+}
+.content .content_box .incomplete {
+  border: solid 0.2667vw #f0361f;
+  color: #f0361f;
+}
+.content .first_content_box {
+  border: none;
+}
+.bottom {
+  display: flex;
+  z-index: 100;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 15.2vw;
+  border-top: 0.2667vw solid #ccc;
+}
+.bottom .bottom_box {
+  text-align: center;
+  width: 13.3333vw;
+}
+.bottom .bottom_box .myicon {
+  font-size: 5.6vw !important;
+}
+.bottom .bottom_box p {
+  font-size: 3.4667vw;
+}
+.bottom .click_bottom_box {
+  color: #f0361f !important;
+}

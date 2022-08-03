@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/ProductDetails.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="main">
+            <div class="flex">
+                <a href=""><img src="../img/返回拷贝@2x.png" alt=""></a>
+                <div class="top_title">
+                    <span class="">商品详情</span>
+                    <span>咨询客服</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="goods_img">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/500731436@2x.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/500731436@2x.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/500731436@2x.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/500731436@2x.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="../package/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
+    </div>
+
+    <!-- 商品详情 -->
+    <div class="goods_text">
+        <div class="main">
+            <!-- 商品主标题 -->
+            <div class="goods_MainTitle">
+                <span>新款潮款女装多色优惠促销套装当天发货</span>
+            </div>
+            <!-- 商品副标题 -->
+            <div class="goods_subtitle">
+                <span>新款衣服款</span>
+                <a href="">9.9新</a>
+                <a href="">9.9折</a>
+            </div>
+            <!-- 价格 -->
+            <div class="goods_price">
+                <div class="own_price">
+                    <span>￥</span>
+                    <span>689</span>
+                    <span>.00</span>
+                    <del>￥800.00</del>
+                </div>
+                <div class="similar_price">
+                    <span>同类价格:￥790.00</span>
+                </div>
+            </div>
+            <!-- 服务 -->
+            <div class="goods_service">
+                <div class="goods_service_left">
+                    <span>服务</span>
+                </div>
+                <div class="goods_service_right">
+                    <span>7天包退</span>
+                    <span>当天发货</span>
+                    <span>保障服务</span>
+                </div>
+            </div>
+            <!-- 规格选择 -->
+
+            <div class="specification_selection">
+                <span>规格选择</span>
+                <img src="../img/返回拷贝2@2x.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 购物车 -->
+    <div class="ShoppingCart_bottom">
+        <div class="ShoppingCart_left">
+            <div class="ShoppingCart_bottom_box">
+                <img src="../img/客服拷贝2@2x.png" alt="">
+                <p>联系客服</p>
+            </div>
+            <div class="ShoppingCart_bottom_box">
+                <img src="../img/收藏(1)拷贝2@2x.png" alt="">
+                <p>收藏商品</p>
+            </div>
+        </div>
+        <div class="ShoppingCart_right">
+            <a href="" class="join_ShoppingCart">
+                <span>加入购物车</span>
+            </a>
+            <a href="" class="BuyNow">
+                <span>立即购买</span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
